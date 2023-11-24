@@ -13,6 +13,16 @@
 
 #### 1.2 配置WorkFlow环境变量
 
+**必须要改，因为家目录用简写方式`~`不生效，要写绝对路径`/User/xxxx`，可以使用以下命令得到家目录路径**
+
+```shell
+echo $HOME
+```
+or
+```shell
+echo ~
+```
+
 ![image:0](static/1.png)
 
 ![image:2](static/2.png)
