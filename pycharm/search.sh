@@ -5,13 +5,13 @@ export LANG=en_US.UTF-8
 
 source ./workflow-utils.sh
 
-
-LAUNCHER_DIR=$1
-QUERY=$2
+QUERY=$1
+#LAUNCHER_CMD='/Applications/PyCharm.app/Contents/MacOS/pycharm'
+LAUNCHER_CMD=$PYCHARM_LAUNCHER_CMD
 
 # 检查文件是否存在且可读
 # 不存在或者不可读时，提示缺少文件，需要通过"jetbrains-alfred-workflow"创建文件
-if [ ! -r $LAUNCHER_DIR ]; then
+if [ ! -r $LAUNCHER_CMD ]; then
 	noFoundCommandLine
 	exit
 fi
@@ -19,9 +19,15 @@ fi
 # 获取Pycharm的信息
 
 # .e.g: ~/Library/Application Support/JetBrains/PyCharm2021.3
-CONFIG_PATH=~/Library/Application\ Support/JetBrains/PyCharm2023.2
+CONFIG_PATH=$PYCHARM_CONFIG_PATH
 # .e.g: /Applications/PyCharm.app
-RUN_PATH="/Applications/PyCharm.app"
+RUN_PATH=$PYCHARM_RUN_PATH
+
+# echo $1
+# echo $2
+# echo $CONFIG_PATH
+# echo $RUN_PATH
+
 # .e.g: /Applications/PyCharm.app/Contents/Info.plist
 APP_INFO_PATH=${RUN_PATH}'/Contents/Info.plist'
 VERSION=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "$APP_INFO_PATH")
