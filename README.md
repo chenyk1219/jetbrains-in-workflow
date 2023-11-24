@@ -1,4 +1,4 @@
-### 使用Alfred快速打开JetBrains的项目 + 类似于windows右键快捷打开
+### 使用Alfred快速打开JetBrains所有IDE的项目 + 类似于windows右键快捷打开
 
 > 本项目是基于[Alfred](https://www.alfredapp.com/)和[JetBrains](https://www.jetbrains.com/)开发的快速打开项目的workflow，目前只支持MacOS系统。
 
