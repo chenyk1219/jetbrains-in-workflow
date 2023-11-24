@@ -9,7 +9,7 @@
 
 #### 1.1 安装WorkFlow
 
-从 [release]()下载最新的workflow文件，双击安装即可。
+从 [release](https://github.com/chenyk1219/jetbrains-in-workflow/releases)下载最新的workflow文件，双击安装即可。
 
 #### 1.2 配置WorkFlow环境变量
 
