@@ -49,7 +49,7 @@ brew install recode
 
 ![image:1](static/1.gif)
 
-#### 2.2 打开文件夹
+#### 2.2 打开文件夹（类似于windows里的右键快捷打开）
 
 如果在当前Finder中没有选中具体文件夹，则会打开当前窗口所在的文件夹
 
@@ -74,3 +74,9 @@ brew install recode
 因为懒，每次打开项目需要先打开IDE，然后再打开项目，太麻烦了，所以就想着能不能直接打开项目，然后就找到了IDE自带的命令行工具，然后就有了这个workflow。
 
 #### 3.3 static文件夹里放了常用的IDE的图标可以直接拿去用
+
+### 4. 其他项目怎么使用
+
+直接在Alfred的workflow中复制一份，然后修改环境变量即可，其他的不用改（还需要换个图标，图标在static文件夹里）。
+
+![image:5](static/3.png)
