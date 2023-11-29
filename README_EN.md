@@ -31,11 +31,11 @@ echo ~
 
 Variable description
 
-|       name        |   description    |                              value                              |
-|:-----------------:|:----------------:|:---------------------------------------------------------------:|
-|PYCHARM_CONFIG_PATH|    Pycharm configuration file storage path     |/Users/ichen/Library/Application Support/JetBrains/PyCharm2023.2 |
-|PYCHARM_LAUNCHER_CMD| pycharm binary file execution path |/Applications/PyCharm.app/Contents/MacOS/pycharm|
-|PYCHARM_RUN_PATH|   pycharm installation path    |/Applications/PyCharm.app/Contents/MacOS/pycharm|
+|     name     |             description             |                              value                              |
+|:------------:|:-----------------------------------:|:---------------------------------------------------------------:|
+| CONFIG_PATH  | IDE configuration file storage path |/Users/ichen/Library/Application Support/JetBrains/PyCharm2023.2 |
+| LAUNCHER_CMD |   IDE binary file execution path    |/Applications/PyCharm.app/Contents/MacOS/pycharm|
+|   RUN_PATH   |        IDE installation path        |/Applications/PyCharm.app/Contents/MacOS/pycharm|
 
 #### 1.3 Install `recode` to solve the garbled display of Chinese in xml files
 

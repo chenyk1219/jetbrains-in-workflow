@@ -19,9 +19,9 @@ fi
 # 获取Pycharm的信息
 
 # .e.g: ~/Library/Application Support/JetBrains/PyCharm2021.3
-CONFIG_PATH=$PYCHARM_CONFIG_PATH
+CONFIG_PATH=$CONFIG_PATH
 # .e.g: /Applications/PyCharm.app
-RUN_PATH=$PYCHARM_RUN_PATH
+RUN_PATH=$RUN_PATH
 
 # echo $1
 # echo $2

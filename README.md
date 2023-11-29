@@ -31,11 +31,11 @@ echo ~
 
 变量说明
 
-|       name        |   description    |                              value                              |
-|:-----------------:|:----------------:|:---------------------------------------------------------------:|
-|PYCHARM_CONFIG_PATH|    pycharm的配置文件存放路径     |/Users/ichen/Library/Application Support/JetBrains/PyCharm2023.2 |
-|PYCHARM_LAUNCHER_CMD| pycharm二进制文件执行路径 |/Applications/PyCharm.app/Contents/MacOS/pycharm|
-|PYCHARM_RUN_PATH|   pycharm安装路径    |/Applications/PyCharm.app/Contents/MacOS/pycharm|
+|     name     | description  |                              value                              |
+|:------------:|:------------:|:---------------------------------------------------------------:|
+| CONFIG_PATH  | IDE的配置文件存放路径 |/Users/ichen/Library/Application Support/JetBrains/PyCharm2023.2 |
+| LAUNCHER_CMD | IDE二进制文件执行路径 |/Applications/PyCharm.app/Contents/MacOS/pycharm|
+|   RUN_PATH   |   IDE安装路径    |/Applications/PyCharm.app/Contents/MacOS/pycharm|
 
 #### 1.3 安装recode解决xml文件中文显示乱码问题
 
